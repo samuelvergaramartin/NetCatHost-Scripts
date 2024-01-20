@@ -55,7 +55,7 @@ if [[ -f  "/home/container/${MAIN_FILE}" ]]; then
     sleep 2
     echo -e "\e[33m Cargando /home/container/${MAIN_FILE}... \e[0m"
     sleep 1
-	/usr/local/bin/node ${MAIN_FILE};
+	/usr/local/bin/node /home/container/${MAIN_FILE};
     sleep 100
     exit 0
 fi;
