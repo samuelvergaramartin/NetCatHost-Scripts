@@ -50,7 +50,7 @@ echo " "
 echo -e "\e[33m Buscando el archivo de arranque en el /home/container... \e[0m"
 sleep 2
 
-if [[ -f  "${MAIN_FILE}" ]]; then
+if [[ -f  "/home/container${MAIN_FILE}" ]]; then
 	echo -e "\e[32m ✔️ | Detectado: /home/container/${MAIN_FILE} \e[0m"
     sleep 2
     echo -e "\e[33m Cargando /home/container/${MAIN_FILE}... \e[0m"
