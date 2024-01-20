@@ -49,7 +49,7 @@ echo " "
 echo " "
 echo -e "\e[33m Buscando el archivo de arranque en el /home/container... \e[0m"
 sleep 2
-
+echo "HOLA"
 if [[ -f  "/home/container${MAIN_FILE}" ]]; then
 	echo -e "\e[32m ✔️ | Detectado: /home/container/${MAIN_FILE} \e[0m"
     sleep 2
