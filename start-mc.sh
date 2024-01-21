@@ -1,8 +1,9 @@
 #!/bin/bash
 
 clear
+echo "____ aja ___"
 cd /home/container
-sleep 20
+sleep 100
 
 echo -e ".                \e[35m /\_/\ \e[0m \e[31m  | \  |  ___  ____   ___   ___    ____   |    |  ____    ____   ____  \e[0m "
 echo -e ".                \e[35m( o.o )\e[0m \e[31m  |  \ | |___   |    |     |___|    |     |----| |    |  |____    |    \e[0m "
